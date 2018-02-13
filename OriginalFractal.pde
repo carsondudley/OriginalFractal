@@ -1,5 +1,5 @@
 public void buildCircle(int x, int y, int z, int j) {
-  if (z < 10)
+  if (z < 10) return 72;
   else {
     ellipse(x, y, z, j);
     buildCircle(x, y, z-10, j-10);
